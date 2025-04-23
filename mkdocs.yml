@@ -1,0 +1,44 @@
+site_name: VST Soracom Device Manager
+site_description: Documentation for the VST Soracom Device Manager tool
+site_author: Soracom Team
+
+# # Repository information
+# repo_name: VST Soracom Device Manager
+# repo_url: https://github.com/Vapor-Systems/soracom_device_manager.git
+
+# Theme configuration
+theme:
+  name: 'readthedocs'
+  navigation_depth: 1
+  titles_only: false
+  include_homepage_in_sidebar: true
+  prev_next_buttons_location: both
+
+# Extensions
+markdown_extensions:
+  - admonition
+  - codehilite
+  - toc:
+      permalink: false
+
+# Navigation structure
+nav:
+  - Home: index.md
+  - Getting Started:
+    - Installation: getting-started/installation.md
+    - Authentication: getting-started/authentication.md
+    - First Steps: getting-started/first-steps.md
+  - Features:
+    - Device Listing: features/device-listing.md
+    - Device Details: features/device-details.md
+    - Software Updates: features/software-updates.md
+    - Terminal Access: features/terminal-access.md
+    - Tag Management: features/tag-management.md
+
+# Plugins
+plugins:
+  - search
+
+# Extra settings
+extra:
+  version: 1.0.0
