@@ -1,2 +1,11 @@
 2025-04-23 18:13:28,766 - utils - INFO - Cached 359 devices
 2025-04-23 18:13:28,767 - services - INFO - Processed 359 devices in 0.00 seconds
+2025-04-23 23:52:20,010 - utils - INFO - Cache expired, will refresh from API
+2025-04-23 23:52:23,921 - utils - INFO - Cached 359 devices
+2025-04-23 23:52:23,923 - services - INFO - Processed 359 devices in 0.00 seconds
+2025-04-23 23:55:35,074 - utils - INFO - Loaded 359 devices from cache (cached at 2025-04-23 23:52:23)
+2025-04-23 23:55:35,075 - services - INFO - Using 359 devices from cache
+2025-04-23 23:55:35,078 - services - INFO - Processed 359 devices in 0.00 seconds
+2025-04-24 00:00:24,917 - utils - INFO - Loaded 359 devices from cache (cached at 2025-04-23 23:52:23)
+2025-04-24 00:00:24,918 - services - INFO - Using 359 devices from cache
+2025-04-24 00:00:24,920 - services - INFO - Processed 359 devices in 0.00 seconds

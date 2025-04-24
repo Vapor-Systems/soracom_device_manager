@@ -1,6 +1,16 @@
 """
 Configuration settings for the Soracom Device Manager.
 """
+import os
+import pathlib
+from dotenv import load_dotenv
+
+# Get the absolute path to the .env file
+base_dir = pathlib.Path(__file__).parent.parent.absolute()
+env_path = os.path.join(base_dir, '.env')
+
+# Load environment variables from .env file
+load_dotenv(dotenv_path=env_path, override=True)
 
 # Application Version
 APP_VERSION = "1.0.0"
@@ -10,9 +20,7 @@ API_BASE_URL = "https://g.api.soracom.io/v1"
 AUTH_URL = f"{API_BASE_URL}/auth"
 SUBSCRIBERS_URL = f"{API_BASE_URL}/subscribers"
 
-import os
-
-# Get credentials from environment variables with fallbacks for development
+# Get credentials from environment variables
 DEFAULT_EMAIL = os.environ.get("SORACOM_EMAIL", "")
 DEFAULT_PASSWORD = os.environ.get("SORACOM_PASSWORD", "")
 
