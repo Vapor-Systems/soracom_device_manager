@@ -32,7 +32,7 @@ SORACOM_PASSWORD=your-password
 3. Save the file. The application will automatically load these credentials when it starts.
 
 !!! warning
-    This method stores your credentials in plain text on disk. Use with caution and ensure the file has appropriate permissions (e.g., `chmod 600 .env`).
+    This method stores your credentials in plain text on disk. Use with caution.
 
 ### Method 2: Interactive Input
 
