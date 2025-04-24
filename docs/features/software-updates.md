@@ -60,7 +60,7 @@ After the update completes:
 3. The speed class will be reverted to the original setting
 4. You'll return to the device action menu
 
-!!! warning
+!!! tip
     If the ssh connection seems to be hanging after the reboot is issued, you may press `ctrl+c`. The class speed will still revert back to it's default and you will return to the VST Soracom Device Manager without issue.
 
 ## Update Logs and Monitoring
