@@ -27,13 +27,13 @@ This script automatically handles:
 - Creating a virtual environment *if needed*
 - Installing all required dependencies *if they haven't already been installed*
 - Launching the application
-- Starting the documentation server (available at http://localhost:8000)
+- Starting the documentation server (available at http://localhost:8005)
 
 ## Documentation
 
 The application includes built-in documentation that is automatically served when you run the application:
 
-- Documentation is available at http://localhost:8000 while the application is running
+- Documentation is available at http://localhost:8005 while the application is running
 - A link to the documentation is prominently displayed in the main menu header
 - The documentation server runs in the background and is automatically stopped when you exit the application
 

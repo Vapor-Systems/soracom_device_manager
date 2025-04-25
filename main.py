@@ -41,7 +41,7 @@ def launch_docs_server():
         print("Starting documentation server...")
         try:
             mkdocs_process = subprocess.Popen(
-                ["mkdocs", "serve", "--dev-addr=127.0.0.1:8000"],
+                ["mkdocs", "serve", "--dev-addr=127.0.0.1:8005"],
                 stdout=subprocess.PIPE,
                 stderr=subprocess.PIPE
             )
@@ -52,7 +52,7 @@ def launch_docs_server():
                 print(f"Documentation server failed to start (exit code: {mkdocs_process.returncode})")
                 return False
             
-            print("Documentation server started. Available at http://localhost:8000")
+            print("Documentation server started. Available at http://localhost:8005")
             
             # Register a function to kill the process on exit
             atexit.register(lambda: mkdocs_process.terminate() if mkdocs_process else None)

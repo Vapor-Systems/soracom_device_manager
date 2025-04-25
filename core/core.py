@@ -222,7 +222,7 @@ def print_docs_link():
     print(f"{Colors.BRIGHT_RED}{'═' * width}{Colors.RESET}")
     print(f"{Colors.BRIGHT_RED}║{' ' * (width - 2)}║{Colors.RESET}")
     
-    doc_text = "📚 DOCUMENTATION AVAILABLE AT: http://localhost:8000"
+    doc_text = "📚 DOCUMENTATION AVAILABLE AT: http://localhost:8005"
     padding = (width - len(doc_text) - 2) // 2
     print(f"{Colors.BRIGHT_RED}║{' ' * padding}{Colors.BRIGHT_WHITE}{doc_text}{Colors.BRIGHT_RED}{' ' * (width - len(doc_text) - padding - 2)}║{Colors.RESET}")
     
@@ -282,7 +282,7 @@ def print_footer(message="Soracom Device Manager", docs_available=False):
     
     # Add documentation line at the bottom if available (a simple single line)
     if docs_available:
-        doc_msg = "Documentation available at: http://localhost:8000"
+        doc_msg = "Documentation available at: http://localhost:8005"
         padding = (width - len(doc_msg)) // 2
         print(f"\n{Colors.BRIGHT_CYAN}{' ' * padding}{doc_msg}{Colors.RESET}")
 

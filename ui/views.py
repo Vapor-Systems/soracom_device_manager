@@ -53,7 +53,7 @@ def _draw_header_box(width, total_count, online_count, docs_available=False):
     
     # Only add documentation link in the header box when docs_available is True (main menu only)
     if docs_available:
-        doc_text = "📚 DOCUMENTATION: http://localhost:8000"
+        doc_text = "📚 DOCUMENTATION: http://localhost:8005"
         
         # Calculate padding for centered text (accounting for the emoji and color codes)
         visible_len = len(doc_text)
@@ -63,7 +63,7 @@ def _draw_header_box(width, total_count, online_count, docs_available=False):
         right_padding = width - 2 - visible_len - doc_padding
         
         # Create doc display with BRIGHT_YELLOW for DOCUMENTATION to make it stand out
-        doc_display = f"📚 {Colors.BRIGHT_YELLOW}DOCUMENTATION{Colors.RESET}: http://localhost:8000"
+        doc_display = f"📚 {Colors.BRIGHT_YELLOW}DOCUMENTATION{Colors.RESET}: http://localhost:8005"
         
         print(f"{UI.HEADER}│{' ' * doc_padding}{doc_display}{' ' * right_padding}{UI.HEADER}│{Colors.RESET}")
     

@@ -6,7 +6,7 @@ colorama==0.4.6
 cryptography==41.0.3
 ghp-import==2.1.0
 idna==3.10
-importlib-metadata==8.6.1
+importlib-metadata
 jaraco.classes==3.4.0
 jeepney==0.9.0
 jinja2==3.1.6
